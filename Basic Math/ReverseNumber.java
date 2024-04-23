@@ -1,3 +1,5 @@
+// ReverseNumber is used to rewrite the actual number from back to front.
+
 public class ReverseNumber {
     public static void count(int n) {
         // if n=7789
