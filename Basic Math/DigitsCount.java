@@ -1,3 +1,5 @@
+// Counting digits is a basic math concept which helps to count numbers in a given number.
+
 public class DigitsCount {
     public static void count(int n) {
         // if n=7789
