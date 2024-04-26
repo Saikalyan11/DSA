@@ -1,15 +1,25 @@
 public class NtoOne {
-    static void f(int n) {
-        // System.out.println(i);
+    // Brute Force approach
+    static void fb(int n) {
         // base condition
         if (n == 0)
             return;
         System.out.print(n);
-        f(n - 1);
+        fb(n - 1);
+    }
+
+    static void f(int i, int n) {
+        if (i > n)
+            return;
+        f(i + 1, n);
+        System.out.print(i);
     }
 
     public static void main(String[] args) {
         int n = 5;
-        f(n);
+        int i = 1;
+        fb(n);
+        System.out.println();
+        f(i, n);
     }
 }
