@@ -1,5 +1,8 @@
 package Problems;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class TwoSums {
     public static int[] twoSum(int[] arr, int target) {
         for (int i = 0; i < arr.length; i++) {
@@ -16,6 +19,7 @@ public class TwoSums {
     public static void main(String[] args) {
         int[] arr = { 2, 3, 5, 1, 7 };
         int target = 9;
-        System.out.println(twoSum(arr, target));
+        int[] result = twoSum(arr, target);
+        System.out.println(Arrays.toString(result));
     }
 }
