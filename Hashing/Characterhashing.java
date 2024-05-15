@@ -5,6 +5,8 @@ import java.util.*;
 public class Characterhashing {
     public static void main(String[] args) {
 
+        // for small letters
+
         // input
         String s = "abcdaefc";
         int len = s.length();
