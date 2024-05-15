@@ -16,6 +16,7 @@ public class Characterhashing {
             hash[s.charAt(i) - c] += 1;
         }
 
+        // query
         char q = 'f';
         int res = q - 'a';
         System.out.println(hash[res]);
