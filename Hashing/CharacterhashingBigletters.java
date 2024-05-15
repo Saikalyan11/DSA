@@ -13,6 +13,6 @@ public class CharacterhashingBigletters {
 
         // query
         char c = 'A';
-        System.out.println(hash['b']);
+        System.out.println(hash['a']);
     }
 }
